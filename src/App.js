@@ -4,6 +4,13 @@ import './App.css';
 
 class App extends Component {
   render() {
+    let testFormatOnCommit = {
+      hello: 'hi',
+      hola: 'holas',
+
+      hallo: 'Hallo'
+    };
+
     return (
       <div className="App">
         <header className="App-header">
